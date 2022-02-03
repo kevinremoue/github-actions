@@ -1,5 +1,3 @@
-from email import header
-from typing import Optional
 import socket
 
 from fastapi import FastAPI, Response
