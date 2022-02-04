@@ -19,5 +19,6 @@ resource "aws_instance" "test" {
     sudo amazon-linux-extras install docker -y
     sudo systemctl start docker
     sudo usermod -a -G docker ec2-user
+    docker run -it -d -p 8080:8080 ghcr.io/kevinremoue/github-actions:main webapp
   EOF
 }
