@@ -2,6 +2,6 @@
 Testing GitHub actions with a simple FastAPI application. 
 
 ## TODO
-- Push to the cloud/ansible/terraform
+- Finish the config of EC2 to run the image/push the docker image to AWS ECR
 - Test workflows with branches 
 - Test dev/stg/prod deployments
