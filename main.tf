@@ -4,7 +4,7 @@ provider "aws" {
 
 #get data
 data "aws_ecr_repository" "kevinremoue" {
-    name = "kevinremoue"
+  name = "kevinremoue"
 }
 
 #Setup EC2 instance
