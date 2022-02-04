@@ -1,5 +1,5 @@
 provider "aws" {
-    region     = "${{ secrets.AWS_DEFAULT_REGION }}"
+    region = "${{ secrets.AWS_DEFAULT_REGION }}"
     access_key = "${{ secrets.AWS_ACCESS_KEY_ID }}"
     secret_key = "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
 
