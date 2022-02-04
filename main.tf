@@ -7,6 +7,7 @@ data "aws_ecr_repository" "kevinremoue" {
     name = "kevinremoue"
 }
 
+#Setup EC2 instance
 resource "aws_instance" "test" {
   instance_type         = "t2.micro"
   ami                   = "ami-06cffe063efe892ad"
